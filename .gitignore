@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.hf-cache/
+/lora_adapter/*
+/merged_model/*
+/output_lora/*
+
+# Virtual environments
+.venv
