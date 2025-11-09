@@ -9,6 +9,7 @@ wheels/
 /lora_adapter/*
 /merged_model/*
 /output_lora/*
+/coreml_model.mlpackage/*
 
 # Virtual environments
 .venv
