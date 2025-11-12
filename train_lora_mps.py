@@ -30,7 +30,7 @@ model_name = "hfl/rbt3"  # 中文 TinyBERT
 tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
 if not getattr(tokenizer, "is_fast", False):
     raise ValueError("当前脚本需要 fast tokenizer 以使用 offset mapping")
-raw_dataset = load_dataset("csv", data_files="data/train_30000.csv")
+raw_dataset = load_dataset("csv", data_files="data/train.csv")
 dataset = raw_dataset["train"].train_test_split(test_size=0.1, seed=42)
 
 
