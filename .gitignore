@@ -9,6 +9,10 @@ wheels/
 /lora_adapter/*
 /merged_model/*
 /output_lora/*
+/coreml_model.mlpackage/*
+/TestCoreML/TestCoreML/NLPResources/*
 
 # Virtual environments
 .venv
+.DS_Store
+
